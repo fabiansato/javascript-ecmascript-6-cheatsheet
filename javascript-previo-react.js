@@ -20,7 +20,7 @@
 // Operador REST || REST operator
 
 // La sintaxis con parametro REST permite que una función acepte un número infinito de argumentos como una matriz
-//the rest parameter syntax allows a function to accept an infinite number of arguments as an array
+
 
 function suma(...numeros){ //parámetros rest
     let total = 0;
@@ -37,14 +37,14 @@ function suma(...numeros){ //parámetros rest
 
  // Spread operator
  // nos permite copiar todo o parte de una matriz u objeto existente a otra matriz u objeto
-// allows us to copy all or part of an existing array or object to another array or object
+
 const numeros2 = [1, 2, 3, 4];
 const lista = [10, 7, ...numeros2];
 console.log(lista); // [ 10, 7, 1, 2, 3, 4 ]
 
 //Desustructuración | Destructuring assignment
 // esta característica le permite extraer valores de una matriz u objeto y transformarlos en una variable o constante
-//this feature allows you to extract values ​​from an array or object and transform them into a variable or constant
+
 
 const usuario = {username: 'Fabian', age: 37};
 const {username, age} = usuario;
@@ -53,7 +53,4 @@ console.log(age);
 
 // NPM or YARN
 // son administradores de paquetes, donde podemos crear bibliotecas, instalar y administrar bibliotecas dentro de nuestros proyectos
-// they are package managers, where we can create libraries, install and manage libraries within our projects
-
-
 
